@@ -11,15 +11,15 @@ ENV APP_NAME=${APP_NAME}
 WORKDIR /app
 
 # Copy app files to container
-COPY requirments.txt .
-COPY main.py .
+COPY . .
+
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirments.txt
 
 # Expose the port the app runs on
-EXPOSE 5000
+EXPOSE 8000
 
 # Define the default command to run the app
-CMD ["python", "main.py"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
 
