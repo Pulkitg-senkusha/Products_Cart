@@ -1,0 +1,19 @@
+2025-06-07 11:14:31 - INFO - Configuration loaded from environment variables
+2025-06-07 11:14:31 - INFO - Database connection established
+2025-06-07 11:14:31 - INFO - Database initialized and table ensured
+2025-06-07 11:14:32 - INFO - Configuration loaded from environment variables
+2025-06-07 11:14:32 - INFO - Database connection established
+2025-06-07 11:14:32 - INFO - Database initialized and table ensured
+2025-06-07 11:14:32 - INFO - Database connection established
+2025-06-07 11:14:32 - INFO - Database initialized and table ensured
+2025-06-07 11:14:50 - INFO - Fetching product data for title: earphones
+2025-06-07 11:14:50 - INFO - Fetching products for title: earphones
+2025-06-07 11:14:53 - INFO - Extracted 4 products, storing in DB...
+2025-06-07 11:14:53 - INFO - Database connection established
+2025-06-07 11:14:53 - INFO - Stored 4 products
+2025-06-07 11:14:53 - INFO - Inserted 4 products into DB
+2025-06-07 11:14:53 - INFO - Successfully fetched and stored product data for: earphones
+2025-06-07 11:15:02 - INFO - Fetching all products from the database
+2025-06-07 11:15:02 - INFO - Database connection established
+2025-06-07 11:15:02 - INFO - Fetched 12 products from database
+2025-06-07 11:15:02 - INFO - Fetched 12 products from the database
