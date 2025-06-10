@@ -6,6 +6,9 @@ ARG APP_NAME="DockerAppProduct"
 
 # Set environment variable using the ARG
 ENV APP_NAME=${APP_NAME}
+ENV HOST=0.0.0.0
+ENV PORT=8000
+
 
 # Set the working directory inside the container
 WORKDIR /app
